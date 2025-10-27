@@ -1,0 +1,11 @@
+# Lab 21 quick commands
+
+az group create --name vm-lab-rg --location centralus
+
+az vm create --resource-group vm-lab-rg --name winlabvm01   --image "MicrosoftWindowsServer:WindowsServer:2022-datacenter-azure-edition:latest"   --admin-username azureuser --admin-password "<StrongPasswordHere!>"   --size Standard_B2s --public-ip-sku Standard
+
+az vm create --resource-group vm-lab-rg --name linlabvm01   --image "Canonical:0001-com-ubuntu-server-jammy:22_04-lts:latest"   --admin-username azureuser --generate-ssh-keys   --size Standard_B1ms --public-ip-sku Standard
+
+# Auto-shutdown (after VMs exist)
+az vm auto-shutdown --resource-group vm-lab-rg --name winlabvm01 --time 2000 --timezone "Central Standard Time" --email Nichelle.s.fields@gmail.com
+az vm auto-shutdown --resource-group vm-lab-rg --name linlabvm01 --time 2000 --timezone "Central Standard Time" --email Nichelle.s.fields@gmail.com
