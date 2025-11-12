@@ -29,10 +29,10 @@ with:
 ``` bash
 az network bastion show   --name LabBastionHost   --resource-group vm-lab-rg   --query "{Name:name, Location:location, ProvisioningState:provisioningState, PublicIP:ipConfigurations[0].publicIpAddress.id, Subnet:ipConfigurations[0].subnet.id}"   -o table
 ```
+<img width="1366" height="1024" alt="image" src="https://github.com/user-attachments/assets/9fedf856-dd85-4a96-84e2-89bb3def3016" />
 
-**📸 Screenshot #1:** Output showing `ProvisioningState: Succeeded`\
-**📸 Screenshot #2:** Azure Portal → **Bastion → Overview** page
-confirming **Running** status.
+<img width="1366" height="1024" alt="image" src="https://github.com/user-attachments/assets/4a43cf7f-df08-4d74-a9df-913e97847563" />
+
 
 ------------------------------------------------------------------------
 
