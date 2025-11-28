@@ -43,7 +43,8 @@ Configuration values:
   Password              Temporary password
   User Type             Member
 
-Screenshot reference: images/create-user-portal.png
+<img width="1366" height="1024" alt="image" src="https://github.com/user-attachments/assets/b921361f-f860-414f-8b13-b4b9feca2894" />
+
 
 # 2. Create a User with Azure CLI (Lab User 2)
 
@@ -53,7 +54,8 @@ Run the following in Cloud Shell:
 az ad user create   --display-name "Lab User 2"   --user-principal-name lab-user2@<tenant>.onmicrosoft.com   --password "Pass@word123!"   --force-change-password-next-sign-in true
 ```
 
-Screenshot reference: images/create-user-cli.png
+<img width="1366" height="1024" alt="image" src="https://github.com/user-attachments/assets/2ddec37c-3623-4ba5-8090-56f6e75c78bb" />
+
 
 # 3. Assign Directory Roles
 
@@ -62,13 +64,15 @@ Screenshot reference: images/create-user-cli.png
 Role capabilities: - Manage user accounts\
 - Reset passwords
 
-Screenshot reference: images/assign-role-user1.png
+<img width="1366" height="1024" alt="image" src="https://github.com/user-attachments/assets/b02b6a47-bd9d-4edf-a068-b5e8c52e706c" />
+
 
 ## Lab User 2 --- Helpdesk Administrator
 
 Role capabilities: - Reset passwords for non-admin accounts
 
-Screenshot reference: images/assign-role-user2.png
+<img width="1366" height="1024" alt="image" src="https://github.com/user-attachments/assets/9443dff8-723c-4d11-8ea6-1285caa37ff8" />
+
 
 # 4. Create a Security Group
 
@@ -83,18 +87,21 @@ Configuration values:
   Description       Test group for AZ-104
   Membership Type   Assigned
 
-Screenshot reference: images/create-group.png
+<img width="1366" height="1024" alt="image" src="https://github.com/user-attachments/assets/a969094a-4c75-4e75-b2c6-cf1bea2b8997" />
+
 
 # 5. Add Members to the Group
 
 Add the following users: - Lab User 1\
 - Lab User 2
 
-Screenshot reference: images/add-members.png
+<img width="1366" height="1024" alt="image" src="https://github.com/user-attachments/assets/03f90d7a-e44b-44f1-9852-6fe61d60991f" />
+
 
 # 6. Group Creation Confirmation
 
-Screenshot reference: images/group-created.png
+<img width="1366" height="1024" alt="image" src="https://github.com/user-attachments/assets/037aac9b-0e04-40ff-b58b-ca6285cfe6bc" />
+
 
 # 7. Login Attempt and MFA Behavior
 
