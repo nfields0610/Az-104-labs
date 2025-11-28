@@ -136,6 +136,5 @@ Channel: @nichellef
 
 AZ-104 Lab 2 --- Manage Group Membership, Access, and Licensing
 
-# HUMN-X Alignment
 
 "I build systems that remember people."
