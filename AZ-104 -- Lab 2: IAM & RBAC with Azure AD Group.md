@@ -225,7 +225,6 @@ Identities**.
 
 # -----------------------------------------
 
-# **📸 Insert Your Footer Image or Branding**
 
-![Footer](images/footer.png) \#
+
 -----------------------------------------
