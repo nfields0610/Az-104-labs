@@ -13,15 +13,6 @@ and resource group access delegation.
 
 ------------------------------------------------------------------------
 
-# -----------------------------------------
-
-# **📸 Insert Your Header Image Here**
-
-(Example: Your branded YouTube/AZ-104 banner) ![Header
-Image](images/header.png) \# -----------------------------------------
-
-------------------------------------------------------------------------
-
 # 🎯 **Lab Objective**
 
 Provide **view-only access** to the resource group **AZ-104NF-RG** by
@@ -44,9 +35,9 @@ or delete them.
 2.  Select **AZ-104NF-RG**\
 3.  Click **Access control (IAM)**
 
-### 📸 Insert screenshot of IAM blade:
 
-![IAM Blade](images/iam-blade.png)
+<img width="1366" height="1024" alt="image" src="https://github.com/user-attachments/assets/a66bead9-fae9-4cf2-8e4a-04c1da69f5f8" />
+
 
 ------------------------------------------------------------------------
 
@@ -56,9 +47,9 @@ or delete them.
 2.  Select the **Reader** role\
 3.  Click **Next**
 
-### 📸 Insert screenshot of role selection:
 
-![Role Selection](images/role-selection.png)
+<img width="1366" height="1024" alt="image" src="https://github.com/user-attachments/assets/a14e12ca-a445-44dd-a87c-24b5b48c4679" />
+
 
 ------------------------------------------------------------------------
 
@@ -74,9 +65,10 @@ or delete them.
 
 4.  Click **Review + assign**
 
-### 📸 Insert screenshot of group selection:
+<img width="1366" height="1024" alt="image" src="https://github.com/user-attachments/assets/12b33a61-18a0-4dc0-a82f-cdb6d0d2e517" />
 
-![Group Selection](images/group-selection.png)
+
+
 
 ------------------------------------------------------------------------
 
@@ -86,9 +78,10 @@ Azure shows a success notification:
 
 > **Lab-operations-group was added as Reader for AZ-104NF-RG**
 
-### 📸 Insert screenshot of confirmation toast:
 
-![Confirmation](images/role-assignment-confirmation.png)
+
+<img width="1366" height="1024" alt="image" src="https://github.com/user-attachments/assets/c371c0be-25ee-42fa-8ace-1c1436d73311" />
+
 
 ------------------------------------------------------------------------
 
@@ -98,9 +91,10 @@ Azure shows a success notification:
 
 # -----------------------------------------
 
-### 📸 Insert screenshot of your Cloud Shell session:
 
-![Cloud Shell](images/cloud-shell.png)
+
+<img width="1366" height="1024" alt="image" src="https://github.com/user-attachments/assets/31993e48-5388-491d-9b41-6db1bf46192d" />
+
 
 ------------------------------------------------------------------------
 
@@ -146,9 +140,9 @@ You should see:
   -------- --------------- -----------
   Reader   This resource   None
 
-### 📸 Insert screenshot of the verification screen:
 
-![Portal Verification](images/portal-verification.png)
+<img width="1366" height="1024" alt="image" src="https://github.com/user-attachments/assets/c9f0834d-66e6-4f9a-adee-2ec3d3dd0f6f" />
+
 
 ------------------------------------------------------------------------
 
@@ -224,7 +218,7 @@ You successfully assigned **Reader** permissions to
 ✔️ Azure Portal\
 ✔️ Azure CLI
 
-This completes the IAM & RBAC portion of **AZ-104 Lab 1 -- Manage
+This completes the IAM & RBAC portion of **AZ-104 Lab 2 -- Manage
 Identities**.
 
 ------------------------------------------------------------------------
