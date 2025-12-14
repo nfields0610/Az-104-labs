@@ -37,8 +37,10 @@ The solution was **successfully executed and validated** via an Automation runbo
 **Result:**  
 Budget successfully created and visible under Cost Management.
 
-📸 Screenshot: Create Budget wizard  
-📸 Screenshot: Budget created confirmation
+<img width="1366" height="1024" alt="image" src="https://github.com/user-attachments/assets/58814f22-a0b3-403e-a98c-6f2a2c203dca" />
+
+<img width="1366" height="1024" alt="image" src="https://github.com/user-attachments/assets/ac76fca6-acc5-4ed5-98ac-e0cd3cf170cf" />
+
 
 ---
 
@@ -54,8 +56,10 @@ Configuration:
 **Why this matters:**  
 Managed identities eliminate credential storage and align with enterprise security practices.
 
-📸 Screenshot: Automation Account creation  
-📸 Screenshot: Deployment succeeded
+<img width="1366" height="1024" alt="image" src="https://github.com/user-attachments/assets/27e712b9-3ab3-42e5-9336-6aeebc953a0f" />
+
+<img width="1366" height="1024" alt="image" src="https://github.com/user-attachments/assets/e2c7a00e-c313-4cc1-b807-95b3f86c6213" />
+
 
 ---
 
@@ -77,7 +81,8 @@ az role assignment create   --assignee $identityId   --role "Contributor"   --sc
 **Result:**  
 Role assignment successfully created.
 
-📸 Screenshot: Role assignment output
+<img width="1366" height="1024" alt="image" src="https://github.com/user-attachments/assets/0e6c89c1-af49-453d-b74c-81c37a041111" />
+
 
 ---
 
@@ -110,8 +115,10 @@ foreach ($rg in $rgList) {
 - Uses asynchronous deletion jobs
 - Safe for repeated execution
 
-📸 Screenshot: Runbook editor  
-📸 Screenshot: Runbook published
+<img width="1366" height="1024" alt="image" src="https://github.com/user-attachments/assets/c4afbf4c-ab67-4d97-b10b-69180b0b4f30" />
+
+<img width="1366" height="1024" alt="image" src="https://github.com/user-attachments/assets/7670a641-c1b3-4e86-9367-49d2c6131505" />
+
 
 ---
 
@@ -122,7 +129,8 @@ foreach ($rg in $rgList) {
 - Execution: Nightly (off‑hours)
 - Linked to runbook successfully
 
-📸 Screenshot: Schedule creation confirmation
+<img width="1366" height="1024" alt="image" src="https://github.com/user-attachments/assets/6b2046e3-93e8-4952-9c3f-0e7028a79050" />
+
 
 ---
 
@@ -147,8 +155,11 @@ Deleting resource group: TestCleanupRG...
 - Management RG preserved
 - No errors or exceptions
 
-📸 Screenshot: Job output (Completed)  
-📸 Screenshot: Resource group recreation test
+
+<img width="1366" height="1024" alt="image" src="https://github.com/user-attachments/assets/2271b645-9acf-435b-b86c-911f666a2d5a" />
+
+
+<img width="1366" height="1024" alt="image" src="https://github.com/user-attachments/assets/b8afd77a-1236-4b16-a1ae-efcb12054672" />
 
 ---
 
