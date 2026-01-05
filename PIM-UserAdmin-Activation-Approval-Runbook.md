@@ -50,7 +50,8 @@ Add these images to your repo (example path: `./images/`) and replace filenames 
 **Path:** Microsoft Entra admin center → **Identity Governance** → **Privileged Identity Management** → **My roles** → *Microsoft Entra roles*  
 Under **Eligible assignments**, locate **User Administrator** (scoped to your Admin Unit) and click **Activate**.
 
-📸 **Screenshot placeholder:** `01-activate-pane.png`
+<img width="1366" height="1024" alt="image" src="https://github.com/user-attachments/assets/cea20deb-9821-449e-9733-887a84d0d5fe" />
+
 
 ### Meta layer
 - **Core decision practice:** *Just-in-time elevation* instead of permanent admin rights.
@@ -68,7 +69,8 @@ In the **Activate – User Administrator** pane:
    - “Lab admin tasks: create/update users in Az-104-IT-AU, validate group membership, and review sign-in activity.”
 3. Click **Activate**.
 
-📸 **Screenshot placeholder:** `01-activate-pane.png` *(same pane if you want to show inputs before you click Activate)*
+<img width="1366" height="1024" alt="image" src="https://github.com/user-attachments/assets/99d614e2-4255-4071-9581-51011f0e3329" />
+
 
 ### Meta layer
 - **Core decision practice:** *Time-boxing* + *explicit justification*.
@@ -83,13 +85,15 @@ In the **Activate – User Administrator** pane:
 After submitting, you should see a notification/toast like:
 > “Your request is pending for approval…”
 
-📸 **Screenshot placeholder:** `02-pending-approval-toast.png`
+<img width="1366" height="1024" alt="image" src="https://github.com/user-attachments/assets/3a81253c-80a1-4139-8bb5-4b39bf252c1d" />
+
 
 Optional check:
 - In **My roles**, click **Active assignments**.  
   If approval is required, the role may **not** appear as active yet.
 
-📸 **Screenshot placeholder:** `03-active-assignments-empty.png`
+<img width="1366" height="1024" alt="image" src="https://github.com/user-attachments/assets/f55570a2-dfcf-47f4-8a01-2c083474914c" />
+
 
 ### Meta layer
 - **Core decision practice:** *Expectation management*—approval gating is working as designed.
@@ -111,7 +115,8 @@ Look under **Requests for role activations** and locate the request:
 - **Resource:** `Az-104-IT-AU`  
 - **Resource type:** AdministrativeUnit
 
-📸 **Screenshot placeholder:** `04-approve-requests-list.png`
+<img width="1366" height="1024" alt="image" src="https://github.com/user-attachments/assets/f2931374-f103-49fc-a2cd-07d666ede5b8" />
+
 
 ### Meta layer
 - **Core decision practice:** *Separation of duties* (requestor ≠ approver).
@@ -126,11 +131,13 @@ Look under **Requests for role activations** and locate the request:
 1. Select the request checkbox.
 2. Click **Approve**.
 
-📸 **Screenshot placeholder:** `05-approve-selected.png`
+<img width="1366" height="1024" alt="image" src="https://github.com/user-attachments/assets/a9675c6c-dc8a-415e-8818-b3fc21cf075b" />
+
 
 You should see confirmation that the request is approved.
 
-📸 **Screenshot placeholder:** `06-approved-toast.png`
+<img width="1366" height="1024" alt="image" src="https://github.com/user-attachments/assets/f1e572d2-5ded-4c0e-9eeb-1663600d06b5" />
+
 
 ### Meta layer
 - **Core decision practice:** *Explicit authorization* of privileged action.
@@ -153,7 +160,8 @@ You should now see:
 - **End time:** (timestamp based on duration)  
 - **Action:** Deactivate (optional)
 
-📸 **Screenshot placeholder:** `07-active-assignments-activated.png`
+<img width="1366" height="1024" alt="image" src="https://github.com/user-attachments/assets/4e033b26-be54-4235-af69-ffd3939dbb10" />
+
 
 ### Meta layer
 - **Core decision practice:** *Close the loop*—verify access before you start admin work.
@@ -213,25 +221,3 @@ When finished, go back to **Active assignments** and click **Deactivate** (or ju
 
 ---
 
-## Repo structure suggestion
-
-```
-/pim-activation-user-admin/
-  README.md   <-- this file
-  /images/
-    01-activate-pane.png
-    02-pending-approval-toast.png
-    03-active-assignments-empty.png
-    04-approve-requests-list.png
-    05-approve-selected.png
-    06-approved-toast.png
-    07-active-assignments-activated.png
-```
-
----
-
-## Suggested Git commits
-
-- `docs: add PIM activation scenario + approval workflow notes`
-- `docs: add screenshots for PIM user admin activation flow`
-- `docs: add meta-layer (risk, impact, transferable insight) to each step`
