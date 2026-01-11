@@ -39,7 +39,7 @@ Establish a **recurring access review** for a privileged group to prevent **priv
 - Selected group: **PIM-User-Administrator-Lab**
 - Scope: **Guest users only**
 
-![image.jpeg](PIM_User_Administrator_Access_Review_Runbook/image%201.jpeg)
+![image](https://github.com/user-attachments/assets/aca9da24-47fa-4956-a21a-df01cbf6a8d2)
 
 ---
 
@@ -48,7 +48,7 @@ Establish a **recurring access review** for a privileged group to prevent **priv
 **Reviewer Configuration:**
 - Users review their own
 
-![image.jpeg](PIM_User_Administrator_Access_Review_Runbook/image%202.jpeg)
+<img width="1366" height="1024" alt="image" src="https://github.com/user-attachments/assets/fcd80cc8-35a6-43e3-b577-73c77c6947ef" />
 
 **Why this matters:**
 - Enables self-attestation
@@ -64,7 +64,7 @@ Establish a **recurring access review** for a privileged group to prevent **priv
 - Start date: **01/07/2026**
 - End: **No end date**
 
-![image.jpeg](PIM_User_Administrator_Access_Review_Runbook/image%203.jpeg)
+![image](https://github.com/user-attachments/assets/8145ffd6-44ef-4efc-a10c-ca21fb44fb88)
 
 ---
 
@@ -76,13 +76,15 @@ Establish a **recurring access review** for a privileged group to prevent **priv
 - If reviewers don’t respond: **Remove access**
 - Action on denied guest users: **Remove group membership**
 
-![image.jpeg](PIM_User_Administrator_Access_Review_Runbook/image%204.jpeg)
+![image](https://github.com/user-attachments/assets/1f62393d-ce9f-471c-8383-59dfcfe5b4ce)
+
 
 ### Decision Helpers
 
 - No sign-in within 30 days: **Enabled**
 
-![image.jpeg](PIM_User_Administrator_Access_Review_Runbook/image%205.jpeg)
+![image](https://github.com/user-attachments/assets/6c75009c-157f-42b8-a6b8-0cb889954278)
+
 
 ### Advanced Settings
 
@@ -90,7 +92,7 @@ Establish a **recurring access review** for a privileged group to prevent **priv
 - Email notifications: **Enabled**
 - Reminders: **Enabled**
 
-![image.jpeg](PIM_User_Administrator_Access_Review_Runbook/image%206.jpeg)
+![image](https://github.com/user-attachments/assets/3acc20d2-02d5-4eff-bb51-2deb82dcb160)
 
 ---
 
@@ -99,13 +101,14 @@ Establish a **recurring access review** for a privileged group to prevent **priv
 - Review configuration summary
 - Click **Create**
 
-![image.jpeg](PIM_User_Administrator_Access_Review_Runbook/image%207.jpeg)
+![image](https://github.com/user-attachments/assets/91327aeb-a99c-4e54-bd8d-7dc9967bb457)
 
 ---
 
 ## Step 7: Access Review Created Successfully
 
-![image.jpeg](PIM_User_Administrator_Access_Review_Runbook/image%208.jpeg)
+![image](https://github.com/user-attachments/assets/9364d7b5-c0e2-4bcd-916f-de2a61a2712a)
+
 
 ---
 
@@ -117,7 +120,8 @@ Establish a **recurring access review** for a privileged group to prevent **priv
 - Instance Status: **Complete**
 - Warning: **No access to review**
 
-![image.jpeg](PIM_User_Administrator_Access_Review_Runbook/image%209.jpeg)
+![image](https://github.com/user-attachments/assets/5066bfe8-ed99-4d47-94cd-d470069d56cf)
+
 
 ### Explanation
 
@@ -132,7 +136,8 @@ This does **not** indicate a configuration error.
 
 ## Step 9: Identity Governance Validation
 
-![image.jpeg](PIM_User_Administrator_Access_Review_Runbook/image%2010.jpeg)
+![image](https://github.com/user-attachments/assets/dd71eb94-9fdc-4b29-9584-bb6acc405cad)
+
 
 ---
 
@@ -150,6 +155,3 @@ Successfully implemented a **monthly automated access review** for a privileged 
 
 ---
 
-## Lab Status
-
-**Complete ✅**
